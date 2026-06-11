@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Local configuration and secrets
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+
+# MCP/runtime outputs
+mcp_outputs/
+**/mcp_outputs/
+*.log
+
+# Local/editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Local backup not intended for the public repository
+pycreditools_backup_20260610_1230/
